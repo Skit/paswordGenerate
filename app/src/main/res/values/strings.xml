@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">PasswordTranslate</string>
+    <string name="help_text">Введите пароль в русской раскладке</string>
+    <string name="clipboard_title">Пароль скопирован в буфер обмена</string>
+    <string name="quality_hint">(Сложность)</string>
+    <string name="checkbox_number">Цифры</string>
+    <string name="checkbox_uppercase">Верхний регистр</string>
+    <string name="chackbox_specialchar">Специальные символы</string>
+    <string name="help_text2">Сгенерируйте новый пароль</string>
+    <string name="generate_password">Генерировать</string>
+    <string name="password_swap">%1$s%2$s%3$s</string>
+
+    <string name="number">0123456789</string>
+    <string name="lower">abcdefghijklmnopqrstuvwxyz</string>
+    <string name="upper">ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="special">~`!@#$%^&amp;*()-_={}[]|\\|&quot;\/&apos;&gt;&lt;</string>
+    <string name="russian_case">(В русской раскладке)</string>
+
+    <string-array name="qualities">
+        <item>@string/quality_hint</item>
+        <item>Легкий</item>
+        <item>Средний</item>
+        <item>Хороший</item>
+    </string-array>
+
+    <plurals name="start_counter">
+        <item quantity="one">%1$d символ</item>
+        <item quantity="two">%1$d символа</item>
+        <item quantity="few">%1$d символа</item>
+        <item quantity="many">%1$d символов</item>
+        <item quantity="other">%1$d символа</item>
+    </plurals>
+
+    <plurals name="counter">
+        <item quantity="one">%1$d + %2$d = %3$d символ</item>
+        <item quantity="two">%1$d + %2$d = %3$d символа</item>
+        <item quantity="few">%1$d + %2$d = %3$d символа</item>
+        <item quantity="many">%1$d + %2$d = %3$d символов</item>
+        <item quantity="other">%1$d + %2$d = %3$d символа</item>
+    </plurals>
+</resources>
